@@ -1,7 +1,7 @@
 const path = require('path');
 module.exports = {
     entry: './src/main.ts',
-    devtool: 'inline-source-map',
+    devtool: 'eval',
     devServer: {
         contentBase: '.'
     },
