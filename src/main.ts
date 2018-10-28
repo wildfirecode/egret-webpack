@@ -1,4 +1,4 @@
-export default class Main extends egret.DisplayObjectContainer {
+class Main extends egret.DisplayObjectContainer {
     constructor() {
         super();
         this.addEventListener(egret.Event.ADDED_TO_STAGE, this.onAddToStage, this);
@@ -15,5 +15,4 @@ export default class Main extends egret.DisplayObjectContainer {
 
 window['Main'] = Main;
 
-import runEgret from "./runEgret";
-runEgret();
+egret.runEgret();
